@@ -1,0 +1,392 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*font-family: "Lilita One", sans-serif;
+font-family: "Prompt", sans-serif;
+ font-family: "Ubuntu", sans-serif;*/
+
+*{margin:0px;
+padding:0px;
+border:0px;
+}
+
+body{
+  background: linear-gradient(to bottom, rgba(47,0,124,1) 0%,rgba(0,96,160,1) 46%,rgba(22,0,114,1) 100%); 
+}
+
+#contenedor{
+    width: 1200px;/*ANCHO DEL CONTENEDOR*/
+    margin: auto;
+    height: auto;    } /* centra el contenedor*/
+
+#encabezado{
+    height: 460px;
+}
+
+#nav-sociales{
+background: linear-gradient(to bottom, rgba(31,7,89,1) 0%,rgba(0,28,112,1) 100%);
+    width: 100%;
+    height: 40px;
+}
+#nav-sociales ul{
+	width: 900px;
+    margin: auto;
+     
+}
+
+#nav-sociales ul li{
+    float:left;
+	list-style-type: none;
+}
+
+
+#botonera{
+    height: 50px;/*ALTURA DE MI BOTONERA*/
+    background-position: bottom;
+	background: linear-gradient(to bottom, rgba(31,7,89,1) 0%,rgba(0,28,112,1) 100%);
+	
+}
+
+#botonera ul{
+    width: 800px;	
+	margin: auto;
+	/*border:solid 1px blue;*/
+}
+#botonera ul li{
+    width: 150px;/*ESTO ES PARA SABER CUANTO MI LETRA VA OCUPAR DENTRO DE LA BOTONERA*/
+    float: left;
+    /*border: solid 1px yellow;*/
+    line-height: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+#botonera ul li a{
+font-family: "Prompt", sans-serif;
+    font-size: 14px;
+    color: rgba(251,251,251,1.00);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#botonera ul li a:hover{
+    color: rgba(35,208,33,1.00);
+}
+
+#botonera ul li:hover{
+    background-color: rgba(232,202,202,0.52);
+	 text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+#Centro{
+    height: 900px;/*tamaño vertical del centro*/
+    background-color: rgba(255,255,255,1.00);
+    width: 1200px;
+}
+
+#pie{
+    width: 1200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Prompt", sans-serif;
+    color: rgba(247,234,234,1.00);
+    background: linear-gradient(to bottom, rgba(7,0,86,1) 0%,rgba(18,0,107,0.66) 50%,rgba(22,0,114,0.78) 67%,rgba(22,0,114,1) 100%); 
+}
+
+#caja1{
+    width: 510px;
+    height: 800px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+    box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 2%,rgba(0,28,112,1) 100%);
+    margin-right: 25px;
+}
+
+#caja1 h1{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(2,7,41,1.00);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#caja1 p{
+	font-family: "Ubuntu", sans-serif;
+    color: rgba(255,255,255,1.00);
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#caja1 img{
+	display:block;
+	margin:auto	
+		
+}
+
+
+#caja2{
+    width: 510px;
+    height: 600px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    margin-left: 25px;
+    box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.8) 2%,rgba(0,28,112,0.8) 100%);
+    margin-right: 65px;
+}
+
+#caja2 h2{
+	font-family: "Ubuntu", sans-serif;
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    color: rgba(2,7,41,1.00);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#caja2 img{
+    display: block;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 40px;
+}
+
+#caja2 p{
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0,0,0,1.00);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;	
+}
+
+
+.textos {
+    width: 550px;
+    height: 300px;
+    float: right;
+    margin-top: 10px;		
+  
+}
+#accordion img{
+    display: block;
+    box-shadow: -13px -13px 26px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+	margin-top:150px;
+	 margin-left: 50px;
+	
+}
+
+.textos p{
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(11,0,39,1.00);
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+#contenido{
+	height: 670px;
+}
+
+#tabs img{
+    display: block;
+    box-shadow: -13px -13px 26px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;	
+	
+}
+
+#caja4{
+    float: left;
+    width: 800px;
+    height: 700px;
+    background-color: rgba(23,3,70,0.89);
+    margin-top: 60px;
+    box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 200px;
+	border: solid 8px rgba(151,23,5,1.00);
+	}
+
+#caja4 h3{
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(255,255,255,1.00);
+    font-weight: 400;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+	
+}
+
+#caja4 p{
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(251,251,251,1.00);
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;	
+	
+}
+
+#video{
+    margin-left:45px;
+}
+
+article h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgba(14,2,74,1.00);
+
+	
+}
+
+article{
+	width: 500px;
+	height: 550px;
+	float:left;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 10px;	
+}
+
+article form{	
+border: solid 2px rgba(15,7,88,1.00);
+margin-left: 40px;
+margin-top:30px;
+}
+
+form label{
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(17,0,69,1.00);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input{
+width: 420px;
+height: 35px;
+border:solid 1px rgba(9,6,78,1.00);
+border-radius:10px;
+margin-left: 10px;
+}
+
+form textarea{
+	width: 420px;
+	border: solid 1px rgba(8,1,62,1.00);
+	margin-left: 10px;
+	border-radius:10px;	
+}
+
+#enviar, #restablecer{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px rgba(12,0,73,1.00);
+    background-color: rgba(26,8,139,1.00);
+    color: rgba(255,255,255,1.00);
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.importante{
+	margin-top:80px;
+	margin-left:60px;
+	margin-bottom: 10px;
+	width: 320px;
+	height: 300px;
+	float:left;
+	box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+background: linear-gradient(to bottom, rgba(255,255,255,0.5) 2%,rgba(0,28,112,0.5) 100%);
+/*	border: solid 3px #090247;*/
+}
+
+.importante h4{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgba(14,2,74,1.00);
+}
+
+.importante img{
+	margin-left: 60px;
+	display: block;
+	margin-top: 30px;
+}
+
+#caja5{
+    float: left;
+    width: 1050px;
+    height: 300px;
+    margin-left: 73px;
+    background-color: rgba(2,3,47,0.91);
+}
+
+#caja5 p{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Prompt", sans-serif;
+}
+
+#caja5 img{
+    float: left;
+    margin-left: 460px;
+    margin-bottom: 10px;
+    margin-right: 10px;	
+	margin-top: 10px;
+}
+
+#caja5 h3{
+	margin-top: 60px;
+	font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+	margin-left: 20px;
+	color: white
+
+}
